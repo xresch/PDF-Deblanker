@@ -61,7 +61,7 @@ public class PDFUtils {
 	    for (int x = 0; x < width; x++) {
 	        for (int y = 0; y < height; y++) {
 	            Color c = new Color(image.getRGB(x, y));
-	            if (c.getRed() == c.getGreen() && c.getRed() == c.getBlue() && c.getRed() >= 248) {
+	            if (c.getRed() >= 245 && c.getGreen() >= 245 && c.getBlue() >= 245) {
 	                count++;
 	            }
 	        }
