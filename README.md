@@ -6,7 +6,7 @@ This tool will work with all PDFs, regardless if they contain text or contain im
 It will check the color of each pixel, and if the pixels red, green and blue value are >= 245, it will consider the pixel as white.
 If a page has a certain percentage(configured on the user interface) of white pixels, it will be considered as a blank page.
 
-You can use values like "99.1" or "99.723421" to fine tune you're results.
+You can use values for the percentage like "99.1" or "99.723421" to fine tune you're results.
 
 The results will be saved to the folder of the original PDF file in the following sub folders:
   - deblanked
