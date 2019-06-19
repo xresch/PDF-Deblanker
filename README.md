@@ -1,4 +1,4 @@
-# PDF-Deblanker
+# PDF Deblanker
 
 Description
 -----------
