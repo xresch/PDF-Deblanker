@@ -1,0 +1,10 @@
+
+DEVELOPER NOTES
+===============
+
+Building Project
+----------------
+Run maven with the following goals to create a self-contained jar file:
+  >> clean compile assembly:single
+  
+  
