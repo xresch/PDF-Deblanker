@@ -51,7 +51,7 @@ public class Main extends Application  {
 	@Override
     public void start(final Stage primaryStage) {
 		
-        primaryStage.setTitle("BJB PDF Deblanker");
+        primaryStage.setTitle("PDF Deblanker");
         
         GridPane grid = new GridPane();
         
